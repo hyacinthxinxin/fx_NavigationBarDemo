@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		206479AB20BCFA3100E3A5C8 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206479AA20BCFA3100E3A5C8 /* ThirdViewController.swift */; };
 		206479AD20BD40C800E3A5C8 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206479AC20BD40C800E3A5C8 /* FirstViewController.swift */; };
-		206479B020BD449600E3A5C8 /* deme.gif in Resources */ = {isa = PBXBuildFile; fileRef = 206479AF20BD449600E3A5C8 /* deme.gif */; };
-		206479B120BD44AE00E3A5C8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 206479AE20BD41D500E3A5C8 /* README.md */; };
 		209C85C020B81BEF009DB4CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209C85BF20B81BEF009DB4CC /* AppDelegate.swift */; };
 		209C85C220B81BEF009DB4CC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209C85C120B81BEF009DB4CC /* SecondViewController.swift */; };
 		209C85C520B81BEF009DB4CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 209C85C320B81BEF009DB4CC /* Main.storyboard */; };
@@ -26,8 +24,8 @@
 /* Begin PBXFileReference section */
 		206479AA20BCFA3100E3A5C8 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		206479AC20BD40C800E3A5C8 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		206479AE20BD41D500E3A5C8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		206479AF20BD449600E3A5C8 /* deme.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = deme.gif; sourceTree = "<group>"; };
+		206479B720BD46F700E3A5C8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		209C85BC20B81BEF009DB4CC /* NavigationBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationBarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		209C85BF20B81BEF009DB4CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		209C85C120B81BEF009DB4CC /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +54,8 @@
 		209C85B320B81BEF009DB4CC = {
 			isa = PBXGroup;
 			children = (
+				206479B720BD46F700E3A5C8 /* README.md */,
+				206479AF20BD449600E3A5C8 /* deme.gif */,
 				209C85BE20B81BEF009DB4CC /* NavigationBarDemo */,
 				209C85BD20B81BEF009DB4CC /* Products */,
 			);
@@ -80,13 +80,11 @@
 				209D70C620BBA7EC005DE258 /* UITableView+Extension.swift */,
 				209C85C320B81BEF009DB4CC /* Main.storyboard */,
 				209C85D120B81E29009DB4CC /* test.jpg */,
-				206479AF20BD449600E3A5C8 /* deme.gif */,
 				209C85C620B81BF2009DB4CC /* Assets.xcassets */,
 				209C85C820B81BF2009DB4CC /* LaunchScreen.storyboard */,
 				209C85CB20B81BF2009DB4CC /* Info.plist */,
 				209D70CE20BC0C78005DE258 /* FXNavigationBarTransitionCenter.swift */,
 				209D70D020BC0D1B005DE258 /* FXNavigationBarConfiguration.swift */,
-				206479AE20BD41D500E3A5C8 /* README.md */,
 			);
 			path = NavigationBarDemo;
 			sourceTree = "<group>";
@@ -149,10 +147,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				206479B120BD44AE00E3A5C8 /* README.md in Resources */,
 				209C85CA20B81BF2009DB4CC /* LaunchScreen.storyboard in Resources */,
 				209C85C720B81BF2009DB4CC /* Assets.xcassets in Resources */,
-				206479B020BD449600E3A5C8 /* deme.gif in Resources */,
 				209C85C520B81BEF009DB4CC /* Main.storyboard in Resources */,
 				209C85D220B81E29009DB4CC /* test.jpg in Resources */,
 			);
